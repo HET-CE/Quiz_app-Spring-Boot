@@ -7,5 +7,5 @@ import java.util.*;
 @Repository
 public interface JavaRepository extends CrudRepository<Java, String>{
 
-	public List<Java> findByUsername(String username);
+
 }

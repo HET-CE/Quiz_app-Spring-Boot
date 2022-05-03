@@ -13,8 +13,6 @@ public class Python {
 	private String optionC;
 	private String optionD;
 	private String answer;
-	private int isdone;
-	private String username;
 	
 	public Python() {
 		
@@ -29,8 +27,6 @@ public class Python {
 		this.optionC = optionC;
 		this.optionD = optionD;
 		this.answer = answer;
-		this.isdone = isdone;
-		this.username = username;
 	}
 
 	public String getQuestion() {
@@ -69,23 +65,12 @@ public class Python {
 	public void setAnswer(String answer) {
 		this.answer = answer;
 	}
-	public int getIsdone() {
-		return isdone;
-	}
-	public void setIsdone(int isdone) {
-		this.isdone = isdone;
-	}
-	public String getUsername() {
-		return username;
-	}
-	public void setUsername(String username) {
-		this.username = username;
-	}
+	
 
 	@Override
 	public String toString() {
 		return "Java [question=" + question + ", optionA=" + optionA + ", optionB=" + optionB + ", optionC=" + optionC
-				+ ", optionD=" + optionD + ", answer=" + answer + ", isdone=" + isdone + ", username=" + username + "]";
+				+ ", optionD=" + optionD + ", answer=" + answer + "]";
 	}
 	
 }

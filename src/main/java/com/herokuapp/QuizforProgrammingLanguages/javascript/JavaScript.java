@@ -1,10 +1,10 @@
-package com.herokuapp.QuizforProgrammingLanguages.java;
+package com.herokuapp.QuizforProgrammingLanguages.javascript;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
 @Entity
-public class Java {
+public class JavaScript {
 	
 	@Id
 	private String question;
@@ -14,11 +14,11 @@ public class Java {
 	private String optionD;
 	private String answer;
 	
-	public Java() {
+	public JavaScript() {
 		
 	}
 	
-	public Java(String question, String optionA, String optionB, String optionC, String optionD, String answer,
+	public JavaScript(String question, String optionA, String optionB, String optionC, String optionD, String answer,
 			int isdone, String username) {
 		super();
 		this.question = question;
@@ -27,6 +27,7 @@ public class Java {
 		this.optionC = optionC;
 		this.optionD = optionD;
 		this.answer = answer;
+	
 	}
 
 	public String getQuestion() {
@@ -65,6 +66,7 @@ public class Java {
 	public void setAnswer(String answer) {
 		this.answer = answer;
 	}
+	
 
 	@Override
 	public String toString() {

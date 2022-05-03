@@ -6,7 +6,6 @@ import java.util.*
 ;
 
 @Repository
-public interface JavaScriptRepository extends CrudRepository<JavaScipt, String>{
+public interface JavaScriptRepository extends CrudRepository<JavaScript, String>{
 
-	public List<JavaScipt> findByUsername(String username);
 }
